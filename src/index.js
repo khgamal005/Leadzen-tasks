@@ -19,6 +19,11 @@ const router = createBrowserRouter([{
   errorElement:<ErrorPage/>,
   children:[
     {index:true ,element:<UserList/>},
+    
+    {
+      path: "Leadzen-task",
+      element: <UserList/>,
+    },
     {
       path: "user/:id",
       element: <Details/>,
