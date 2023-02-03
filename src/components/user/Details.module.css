@@ -1,0 +1,22 @@
+.userCard{
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Description{
+  margin-top: 1.5rem;
+
+}
+
+.Details{
+display: flex;
+justify-content: space-evenly;
+}
