@@ -21,7 +21,7 @@ const router = createBrowserRouter([{
     {index:true ,element:<UserList/>},
     
     {
-      path: "Leadzen-task",
+      path: "Leadzen-tasks",
       element: <UserList/>,
     },
     {
